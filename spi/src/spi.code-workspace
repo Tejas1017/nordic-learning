@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"sensor.h": "c",
+			"gpio.h": "c",
+			"nrfx_spi.h": "c",
+			"kernel.h": "c",
+			"devicetree.h": "c"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../i2c"
+		},
+		{
+			"name": "lps22h3",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"sensor.h": "c",
+			"util.h": "c",
+			"devicetree.h": "c"
+		}
+	}
+}

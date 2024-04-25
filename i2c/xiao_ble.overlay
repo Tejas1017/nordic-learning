@@ -1,0 +1,25 @@
+// To get started, press Ctrl+Space to bring up the completion menu and view the available nodes.
+
+// You can also use the buttons in the sidebar to perform actions on nodes.
+// Actions currently available include:
+
+// * Enabling / disabling the node
+// * Adding the bus to a bus
+// * Removing the node
+// * Connecting ADC channels
+
+// For more help, browse the DeviceTree documentation at https: //docs.zephyrproject.org/latest/guides/dts/index.html
+// You can also visit the nRF DeviceTree extension documentation at https: //nrfconnect.github.io/vscode-nrf-connect/devicetree/nrfdevicetree.html
+&spi2 {
+    compatible = "nordic,nrf-spi"; //using SPI as per ERRATA 58
+    status = "okay";
+    pinctrl-0 = <&spi2_default>;
+    pinctrl-1 = <&spi2_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;
+    bme680: bme68@0 {
+        compatible = "bosch,bme680";
+        reg = <0>;
+        spi-max-frequency = <125000>;
+    };
+};

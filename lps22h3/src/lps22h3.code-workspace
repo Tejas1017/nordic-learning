@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "lps22h3",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"i2c.h": "c",
+			"devicetree.h": "c",
+			"typeinfo": "c"
+		}
+	}
+}

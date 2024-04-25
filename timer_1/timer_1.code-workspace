@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "adc1",
+			"path": "../adc1"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"nrfx_timer.h": "c",
+			"string": "c",
+			"limits": "c",
+			"functional": "c",
+			"nrfx_log.h": "c",
+			"nrfx_systick.h": "c"
+		}
+	}
+}
